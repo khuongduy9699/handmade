@@ -1,0 +1,493 @@
+[{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b29"
+  },
+  "masp": "gb01",
+  "tensp": "Gấu bông bạch tuộc",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-bach-tuoc.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2a"
+  },
+  "masp": "gb02",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-brown.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông",
+  "tensp": "Gấu Bông Brown"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2b"
+  },
+  "masp": "gb03",
+  "tensp": "Gấu bông chó Shiba",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-cho-shiba.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2c"
+  },
+  "masp": "gb04",
+  "tensp": "Gấu bông Cony",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-cony.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2d"
+  },
+  "masp": "gb05",
+  "tensp": "Gấu bông Doraemon",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-doremon.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2e"
+  },
+  "masp": "gb06",
+  "tensp": "Gấu bông gà vàng",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-ga-vang.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b2f"
+  },
+  "masp": "gb07",
+  "tensp": "Gấu bông Hello Kitty",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-hello-kitty.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b30"
+  },
+  "masp": "gb08",
+  "tensp": "Gấu bông khủng long hồng",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-khung-long-hong.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b31"
+  },
+  "masp": "gb09",
+  "tensp": "Gấu bông khủng long xanh",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-khung-long-xanh.png",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b32"
+  },
+  "masp": "gb10",
+  "tensp": "Gấu bông Panda",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-panda.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b33"
+  },
+  "masp": "gb11",
+  "tensp": "Gấu bông Pikachu",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-pikachu.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b34"
+  },
+  "masp": "gb12",
+  "tensp": "Gấu bông quả chuối",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-qua-chuoi.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b35"
+  },
+  "masp": "gb13",
+  "tensp": "Gấu bông Teddy nâu",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-teddy-nau.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b36"
+  },
+  "masp": "gb14",
+  "tensp": "Gấu bông Teddy xanh",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-teddy-xanh.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b37"
+  },
+  "masp": "gb15",
+  "tensp": "Gấu bông trái bơ",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-trai-bo.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b38"
+  },
+  "masp": "gb16",
+  "tensp": "Gấu bông trà sữa",
+  "maloai": "gaubong",
+  "giaban": "80000",
+  "hinh": "gau-bong-tra-sua.jpg",
+  "mota": "Chất liệu được làm từ vải cao cấp và nhồi 100% bông trắng đàn hồi tinh khiết, nên Gấu rất căng bông, êm & mịn, không phai màu mang lại cảm giác thoải mái khi sử dụng, an toàn cho sức khoẻ của trẻ em. Không chất độc hại, an toàn cho trẻ em; Không bay màu, không rụng lông"
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b39"
+  },
+  "masp": "hg01",
+  "tensp": "Hoa cẩm chướng",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-cam-chuong.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3a"
+  },
+  "masp": "hg02",
+  "tensp": "Hoa cúc",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-cuc.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3b"
+  },
+  "masp": "hg03",
+  "tensp": "Hoa đồng tiền",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-dong-tien.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3c"
+  },
+  "masp": "hg04",
+  "tensp": "Hoa hồng",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-hong.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3d"
+  },
+  "masp": "hg05",
+  "tensp": "Hoa hồng xanh",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-hong-xanh.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3e"
+  },
+  "masp": "hg06",
+  "tensp": "Hoa hướng dương",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-huong-duong.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b3f"
+  },
+  "masp": "hg07",
+  "tensp": "Hoa tulip",
+  "maloai": "hoagiay",
+  "giaban": "20000",
+  "hinh": "hoa-tulip.jpg",
+  "mota": "Hoa làm từ giấy nhún, đặc trưng của loại giấy này là có sự đàn hồi nhẹ trên các cánh hoa, tạo độ chân thật hơn so với giấy trơn hay lụa.\n Kích thước bông: 6-8cm x dài 20-40cm (tùy chọn). "
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b40"
+  },
+  "masp": "mk01",
+  "tensp": "Móc khóa cú mèo",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-cu-meo.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b41"
+  },
+  "masp": "mk02",
+  "tensp": "Móc khóa cừu con",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-cuu-con.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b42"
+  },
+  "masp": "mk03",
+  "tensp": "Móc khóa Dreamcatcher",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-dreamcatcher.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b43"
+  },
+  "masp": "mk04",
+  "tensp": "Móc khóa gấu",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-gau.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b44"
+  },
+  "masp": "mk05",
+  "tensp": "Móc khóa gà vàng",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-ga-vang.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b45"
+  },
+  "masp": "mk06",
+  "tensp": "Móc khóa pikachu",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-pikachu.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b46"
+  },
+  "masp": "mk07",
+  "tensp": "Móc khóa Stitch",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-stitch.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b47"
+  },
+  "masp": "mk08",
+  "tensp": "Móc khóa thỏ Bunny",
+  "maloai": "mockhoa",
+  "giaban": "40000",
+  "hinh": "moc-khoa-tho-bunny.jpg",
+  "mota": "Móc thú bằng len được móc bởi các nghệ nhân khéo léo. Đường len đều và đẹp giúp sản phẩm tinh xảo.\nVừa là đồ chơi, đồ trang trí hoặc quà tặng. Bạn thú len là 1 món quà tặng đầy ý nghĩa và các dịp sinh nhật, Noel, Valentine, thôi nôi, đầy tháng.\n Chất liệu: len cotton Việt Nam, bên trong nhồi bông (fiber polyester)."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b48"
+  },
+  "masp": "mh01",
+  "tensp": "Mô hình nhà gỗ",
+  "maloai": "mohinh",
+  "giaban": "200000",
+  "hinh": "mo-hinh-nha-go.png",
+  "mota": "Nhà mô hình gỗ được gia công hoàn toàn bằng tay, có các vật dụng được làm chi tiết như bàn, ghế, bình trà,...\n Số lương hạn chế nhưng chất lượng thì khó đụng hàng.\n Thích hợp làm quà tặng, đồ trang trí."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b49"
+  },
+  "masp": "mh02",
+  "tensp": "Mô hình thuyền buồm",
+  "maloai": "mohinh",
+  "giaban": "200000",
+  "hinh": "mo-hinh-thuyen-buom.jpg",
+  "mota": "Nhà mô hình gỗ được gia công hoàn toàn bằng tay, có các vật dụng được làm chi tiết như bàn, ghế, bình trà,...\n Số lương hạn chế nhưng chất lượng thì khó đụng hàng.\n Thích hợp làm quà tặng, đồ trang trí."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4a"
+  },
+  "masp": "mh03",
+  "tensp": "Mô hình trái tim",
+  "maloai": "mohinh",
+  "giaban": "150000",
+  "hinh": "mo-hinh-trai-tim.jpg",
+  "mota": "Nhà mô hình gỗ được gia công hoàn toàn bằng tay, có các vật dụng được làm chi tiết như bàn, ghế, bình trà,...\n Số lương hạn chế nhưng chất lượng thì khó đụng hàng.\n Thích hợp làm quà tặng, đồ trang trí."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4b"
+  },
+  "masp": "mh04",
+  "tensp": "Mô hình xe đạp",
+  "maloai": "mohinh",
+  "giaban": "100000",
+  "hinh": "mo-hinh-xe-dap.jpg",
+  "mota": "Nhà mô hình gỗ được gia công hoàn toàn bằng tay, có các vật dụng được làm chi tiết như bàn, ghế, bình trà,...\n Số lương hạn chế nhưng chất lượng thì khó đụng hàng.\n Thích hợp làm quà tặng, đồ trang trí."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4c"
+  },
+  "masp": "mh05",
+  "tensp": "Mô hình xích lô",
+  "maloai": "mohinh",
+  "giaban": "100000",
+  "hinh": "mo-hinh-xich-lo.jpg",
+  "mota": "Nhà mô hình gỗ được gia công hoàn toàn bằng tay, có các vật dụng được làm chi tiết như bàn, ghế, bình trà,...\n Số lương hạn chế nhưng chất lượng thì khó đụng hàng.\n Thích hợp làm quà tặng, đồ trang trí."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4d"
+  },
+  "masp": "vt01",
+  "tensp": "Vòng tay 7 màu",
+  "maloai": "vongtay",
+  "giaban": "50000",
+  "hinh": "vong-tay-7-mau.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4e"
+  },
+  "masp": "vt02",
+  "tensp": "Vòng tay chỉ đỏ",
+  "maloai": "vongtay",
+  "giaban": "40000",
+  "hinh": "vong-tay-chi-do.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b4f"
+  },
+  "masp": "vt03",
+  "tensp": "Vòng tay đính đá 1",
+  "maloai": "vongtay",
+  "giaban": "70000",
+  "hinh": "vong-tay-dinh-da.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b50"
+  },
+  "masp": "vt04",
+  "tensp": "Vòng tay đính đá 2",
+  "maloai": "vongtay",
+  "giaban": "20000",
+  "hinh": "vong-tay-dinh-da-2.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b51"
+  },
+  "masp": "vt05",
+  "tensp": "Vòng tay đính đá 3",
+  "maloai": "vongtay",
+  "giaban": "70000",
+  "hinh": "vong-tay-dinh-da-3.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b52"
+  },
+  "masp": "vt06",
+  "tensp": "Vòng tay gắn chuông",
+  "maloai": "vongtay",
+  "giaban": "60000",
+  "hinh": "vong-tay-gan-chuong.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b53"
+  },
+  "masp": "vt07",
+  "tensp": "Vòng tay mèo thần tài",
+  "maloai": "vongtay",
+  "giaban": "60000",
+  "hinh": "vong-tay-meo-than-tai.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b54"
+  },
+  "masp": "vt08",
+  "tensp": "Vòng tay ngũ sắc",
+  "maloai": "vongtay",
+  "giaban": "50000",
+  "hinh": "vong-tay-ngu-sac.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b55"
+  },
+  "masp": "vt09",
+  "tensp": "Vòng tay thổ cẩm",
+  "maloai": "vongtay",
+  "giaban": "40000",
+  "hinh": "vong-tay-tho-cam.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b56"
+  },
+  "masp": "vt10",
+  "tensp": "Vòng tay tình bạn",
+  "maloai": "vongtay",
+  "giaban": "40000",
+  "hinh": "vong-tay-tinh-ban.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60ec530c4b496722c2c44b57"
+  },
+  "masp": "vt11",
+  "tensp": "Vòng tay xoắn ốc",
+  "maloai": "vongtay",
+  "giaban": "30000",
+  "hinh": "vong-tay-xoan-oc.jpg",
+  "mota": "Vòng tay được làm thủ công, Màu sắc trẻ trung, tươi sáng. \n Thiết kế phù hợp nhiều cỡ tay, dễ sử dụng. \n Chất liệu : Sợi polyester + dây sáp bóng. \n Chu vi : 16cm - 22cm. Tùy chỉnh độ rộng bằng cách kéo 2 đầu dây. \n Được làm tỉ mỉ tới từng chi tiết."
+},{
+  "_id": {
+    "$oid": "60eec94cea67a21b14f60005"
+  },
+  "masp": "mk09",
+  "tensp": "Móc khóa dưa hấu",
+  "maloai": "mockhoa",
+  "hinh": "moc-khoa-dua-hau.jpg",
+  "giaban": 20000,
+  "mota": "Móc khóa đẹp , tiện lợi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f14de6aed26b4100cc4fe3"
+  },
+  "masp": "mk11",
+  "tensp": "Móc khóa dưa hấu",
+  "maloai": "mockhoa",
+  "hinh": "moc-khoa-dua-hau.jpg",
+  "giaban": 20000,
+  "mota": "Móc khóa đẹp lắm",
+  "__v": 0
+}]

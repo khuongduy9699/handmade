@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="#"> > Trang Đăng Ký</a></a>
+<div align="center">
+<form action="/dangky" method="post"  name="form1">
+        <table width="70%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#f2f2f2">
+          <tr >
+            <td colspan="2" style ="text-align: center; color: #ff0000;"><div align="center" class="style4"><h2> ĐĂNG KÝ</h2></div></td>
+          </tr>
+          <tr>
+            <td width="28%"><p class="style7">&nbsp;Tên đăng nhập: </p></td>
+            <td width="72%"><label>
+              <input name="ten_dn" type="text" id="ten_dn" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style7">&nbsp;Mật khẩu:</p></td>
+            <td><label>
+              <input name="mat_khau" type="password" id="mat_khau">
+            </label></td>
+          </tr>
+          <tr>
+            <td><span class="style7">&nbsp;Mật khẩu xác nhận:</span></td>
+            <td><input name="mat_khau1" type="password" id="mat_khau1"></td>
+          </tr>
+          <tr>
+            <td><p class="style7">&nbsp;Họ và tên: </p></td>
+            <td><label>
+              <input name="ho_ten" type="text" id="ho_ten" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style7">&nbsp;Địa chỉ email: </p></td>
+            <td><label>
+              <input name="email" type="text" id="email" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td><span class="style7">&nbsp;Địa chỉ liên lạc:</span></td>
+            <td><input name="dia_chi" type="text" id="dia_chi" size="45"></td>
+          </tr>
+          <tr>
+            <td><p class="style7">&nbsp;Số điện thoại: </p></td>
+            <td><label>
+              <input name="so_dt" type="text" id="so_dt">
+            </label></td>
+          </tr>
+          <tr>
+            <td height="35" colspan="2"><p align="center">
+              <label>
+              <input type="submit" name="Submit" value="Đăng ký" style="background-color:#ff9933; padding: 10px ">
+              </label>
+            </p></td>
+          </tr>
+        </table>
+      </form>
+	
+</div>
+
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

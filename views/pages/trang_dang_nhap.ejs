@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="#"> > Trang Đăng Nhập</a></a>
+<div>
+<div width="20%" ></div>
+ <div class="aa-myaccount-login" width='80%' align='center'>
+                <h2 style ="text-align: center; color: #ff0000;">Đăng nhập</h2>
+                 <form class="aa-login-for" name="loginform" onsubmit="validate();" action="/dangnhap" method="post">
+				 <table><tr><td>
+                  <label for="">Tên đăng nhập<span>*</span></label></td>
+				 <td>
+                   <input type="text" placeholder="Tên đăng nhập" name="ten_dn" size="30">
+				   </td></tr>
+				   <tr><td>
+                   <label for="">Mật khẩu<span>*</span></label></td>
+				   <td>
+                    <input type="password" placeholder="Mật khẩu" name="mat_khau">
+					</td></tr>
+					<tr><td>
+                    <p class="rememberme" style="display: block"><input type="checkbox" id="rememberme"> Ghi nhớ </p> 
+    			 </td></tr>
+				 <tr><td style="text-align:center" colspan="2">
+		             <button type="submit" class="aa-browse-btn" style="background-color:#ff9933; padding: 10px; color:#000000 ">Đăng nhập</button>
+		                </td></tr>
+						</table>
+                  </form>
+                </div>
+	
+</div>
+</div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

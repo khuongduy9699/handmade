@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "60ee58c7a0f93420e441e0cd"
+  },
+  "tendn": "khuong",
+  "matkhau": "123456",
+  "hoten": "Duy Khuong",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ee591ca0f93420e441e0d4"
+  },
+  "tendn": "vntan",
+  "matkhau": "123",
+  "hoten": "Võ Ngọc Tân",
+  "diachi": "Thủ Đức, TPHCM",
+  "dienthoai": "0123456789",
+  "email": "tanvn@uit.edu.vn",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f11f0df5f1a9536c76b8fa"
+  },
+  "tendn": "dkhuong",
+  "matkhau": "123456",
+  "hoten": "Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "role": "user",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f2df08466bbb175ca9cc61"
+  },
+  "tendn": "duykhuong",
+  "matkhau": "123456",
+  "hoten": "Nguyễn Trần Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "role": "user",
+  "__v": 0
+}]

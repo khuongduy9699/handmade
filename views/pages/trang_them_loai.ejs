@@ -1,0 +1,68 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main> 
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/quantri"> > Trang Quản Trị</a><a href="#"> > Trang Thêm Loại</a></a>                           
+<div width='80%' align='center'>
+ <form action="/themloai" method="post"  name="form1">
+        <table width="70%" border="0" align="center" cellpadding="1" cellspacing="1">
+          <tr>
+            <td colspan="2"><div align="center" class="style4"><h2 style ="text-align: center; color: #ff0000;"> THÊM LOẠI SẢN PHẨM MỚI</h2> </div></td>
+          </tr>
+          <tr>
+            <td width="26%"><p class="style10">&nbsp;Mã loại: </p></td>
+            <td width="74%"><label>
+              <input name="ma_loai" type="text" id="ma_loai" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Tên loại:</p></td>
+            <td><label>
+              <input name="ten_loai" type="text" id="ten_loai" size="35">
+            </label></td>
+          </tr>
+          
+         
+          <tr>
+            <td height="35" colspan="2"><p align="center">
+              <label>
+              <input type="submit" name="Submit" value="Thêm loại mới" style="background-color:#ff9933; padding: 10px ">
+              </label>
+            </p></td>
+          </tr>
+        </table>
+      </form>
+</div>
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

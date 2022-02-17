@@ -1,0 +1,116 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shop Handmade</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="../style1.css">
+<link href="../bootstrap.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script> 
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60db3a9f7f4b000ac03a29e4/1f9dn60g3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/baiviet"> > Trang Bài Viết</a><a href="#"> > Trang Chi Tiết Bài Viết</a></a>
+
+  <!-- Blog Archive -->
+  <section id="aa-blog-archive">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-blog-archive-area">
+            <div class="row">
+              <div class="col-md-9">
+                <!-- Blog details -->
+                <div class="aa-blog-content aa-blog-details">
+                  <article class="aa-blog-content-single">
+                    <h2><a href="#"><%=post.tenbv%></a></h2>
+                     <div class="aa-article-bottom">
+                      
+                      <div class="aa-post-date"><%=post.ngaydang%></div>
+                    </div>
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="/images/post/<%=post.hinh%>" alt="post hinh"></a>
+                    </figure>
+                    <div><%=post.noidung%></div>
+                  </article>
+                </div>
+              </div>
+              <!-- blog sidebar -->
+                <div class="col-md-3">
+                    <aside class="aa-blog-sidebar">
+
+                        <div class="aa-sidebar-widget">
+                            <h3>Bài đăng gần đây</h3>
+                            <div class="aa-recently-views">
+                                <ul>
+                                    <% for(i=0;i<posts.length;i++){%> 
+                                        <li>
+                                            <a class="aa-cartbox-img"
+                                               href="/baivietchitiet/<%=posts[i]._id%>"><img src="/images/post/<%=posts[i].hinh%>" alt="hinh post"></a>
+                                            <div class="aa-cartbox-info">
+                                                <h4>
+                                                    <a href="/baivietchitiet/<%=posts[i]._id%>"><b><%=posts[i].tenbv%></b></a>
+                                                </h4>
+                                                <p><%=posts[i].ngaydang%></p>
+                                            </div>
+                                        </li>
+                                    <%}%>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer1'); %>
+</footer>
+
+</body>
+
+</html>
+

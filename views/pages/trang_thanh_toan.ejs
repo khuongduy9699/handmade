@@ -1,0 +1,72 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main> 
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/muasanpham"> > Trang Giỏ Hàng</a><a href="#"> > Trang Thanh Toán</a></a>                           
+<div width='80%' align='center'>
+ <form name="form2" method="post" action="/xulydathang">
+        <table width="400" border="0" align="center" cellpadding="0" cellspacing="0" >
+		
+		<tr><h2 style ="text-align: center; color: #ff0000;">Thông tin thanh toán</h2></tr>
+          <tr>
+            <td><span class="style3">Họ Tên:</span></td>
+            <td><input name="ho_ten" type="text" value="<%-hoten%>" id="ho_ten" size="30"></td>
+          </tr>
+		  <tr>
+            <td><span class="style3">Địa chỉ giao hàng:</span></td>
+            <td><input name="dia_chi" type="text" value="<%-diachi%>" id="dia_chi" size="30"></td>
+          </tr>
+		  <tr>
+            <td><span class="style3">Điện Thoại:</span></td>
+            <td><input name="dien_thoai" type="text" value="<%-dienthoai%>" id="dien_thoai" size="30"></td>
+          </tr>
+		  <tr>
+            <td><span class="style3">Email:</span></td>
+            <td><input name="email" type="text" value="<%-email%>" id="email" size="30"></td>
+          </tr>
+		  <tr>
+            <td><span class="style3">Số tiền phải trả:</span></td>
+            <td><label name="tongtien" type="text" id="tongtien" size="30"><%-tongtien%></label></td>
+          </tr>
+		  <br>
+		  <br>
+          <tr>
+		  <br>
+            <td height="30" colspan="2" align="center"><input type="submit" name="Submit" value="XÁC NHẬN THANH TOÁN" style="background-color:#ff9933; padding: 10px "></td>
+          </tr>
+        </table>
+      </form>
+</div>
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

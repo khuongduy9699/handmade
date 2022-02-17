@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="#"> > Trang Giỏ Hàng</a></a>
+<div width='80%' align='center'>
+<h2 style ="text-align: center; color: #ff0000;">GIỎ HÀNG</h2>
+<form name="form1" method="post" action="/capnhatgiohang">
+
+      <%-ttctgh%>
+
+	  </form>
+</br>
+	  <br>
+	 <button  style="background-color:#ff9933; padding: 10px "><a href="/thanhtoan">THANH TOÁN</a></button>
+</div>
+
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

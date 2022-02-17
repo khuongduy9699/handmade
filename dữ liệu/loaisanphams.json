@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60e125f2fc05fcacae63592e"
+  },
+  "maloai": "mockhoa",
+  "tenloai": "Móc Khóa"
+},{
+  "_id": {
+    "$oid": "60e125f2fc05fcacae63592f"
+  },
+  "maloai": "vongtay",
+  "tenloai": "Vòng Tay"
+},{
+  "_id": {
+    "$oid": "60e125f2fc05fcacae635930"
+  },
+  "maloai": "gaubong",
+  "tenloai": "Gấu Bông"
+},{
+  "_id": {
+    "$oid": "60e125f2fc05fcacae635931"
+  },
+  "maloai": "hoagiay",
+  "tenloai": "Hoa Giấy"
+},{
+  "_id": {
+    "$oid": "60e125f2fc05fcacae635932"
+  },
+  "maloai": "mohinh",
+  "tenloai": "Mô Hình Lưu Niệm"
+}]

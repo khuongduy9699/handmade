@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>  
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/quantri"> > Trang Quản Trị</a><a href="#"> > Trang Thêm Sản Phẩm</a></a>                          
+<table>
+<tr>
+<td width="500px"></td>
+<td >
+<form action="/themsanpham" method="post" enctype="multipart/form-data" name="form1">
+        <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#E6F6D9">
+          <tr>
+            <td colspan="2"><div align="center" style="color:#ff0000"><h2> THÊM MỚI SẢN PHẨM </h2></div></td>
+          </tr>
+		  <tr>
+            <td width="26%"><p class="style10">&nbsp;Mã sản phẩm: </p></td>
+            <td width="74%"><label>
+              <input name="ma_sp" type="text" id="ma_sp" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td width="26%"><p class="style10">&nbsp;Tên sản phẩm: </p></td>
+            <td width="74%"><label>
+              <input name="ten_sp" type="text" id="ten_sp" size="35">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Loại sản phẩm:</p></td>
+            <td><label>
+              <select name="loai" id="loai">
+			  <%-dslsp%>						
+			?>
+              </select>
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Mô tả: </p></td>
+            <td><label>
+              <textarea name="mo_ta" cols="35" id="mo_ta"></textarea>
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Đơn giá </p></td>
+            <td><label>
+              <input name="gia_ban" type="text" id="gia_ban">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Hình sản phẩm </p></td>
+            <td><label>
+              <input name="file" type="file" size="45">
+            </label></td>
+          </tr>
+          <tr>
+            <td height="35" colspan="2" ><p align="center">
+              <label >
+              <input type="submit" name="Submit" value="Thêm sản phẩm mới" style="background-color:#ff9933; padding: 10px">
+              </label>
+            </p></td>
+          </tr>
+        </table>
+      </form>
+</td>
+</tr>
+</table>
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+

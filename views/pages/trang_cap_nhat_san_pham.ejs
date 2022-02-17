@@ -1,0 +1,132 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shop Handmade</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="../style1.css">
+<link href="../bootstrap.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script> 
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60db3a9f7f4b000ac03a29e4/1f9dn60g3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/quantri"> > Trang Quản Trị</a><a href="#"> > Trang Cập Nhật Sản Phẩm</a></a>                            
+<table>
+<tr>
+<td width="450px"></td>
+<td >
+	 <form action="/capnhatsanpham/<%=sanphamUpdate._id%>" method="post"  name="form1" enctype="multipart/form-data">
+       <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#E6F6D9">
+          <tr>
+		  
+            <td colspan="2"><div align="center" style="color:#ff0000"><h2> CẬP NHẬT SẢN PHẨM </h2></div></td>
+          </tr>
+      
+          <tr>
+            <td width="26%"><p class="style10">&nbsp;Mã sản phẩm: </p></td>
+            <td width="74%"><label>
+              <input name="ma_sp" type="text" id="ma_sp" size="35" value="<%= sanphamUpdate.masp %>">
+            </label></td>
+          </tr>
+          <tr>
+            <td width="26%"><p class="style10">&nbsp;Tên sản phẩm: </p></td>
+            <td width="74%"><label>
+              <input name="ten_sp" type="text" id="ten_sp" size="35" value="<%= sanphamUpdate.tensp %>">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Loại sản phẩm:</p></td>
+            <td><label>
+              <select name="loai" id="loai">
+			   <% for(i=0;i<dslsp.length;i++){ %>
+			   <option value='<%=dslsp[i].maloai%>'<% if(dslsp[i].maloai==sanphamUpdate.maloai){ %> selected <% } %> ><%= dslsp[i].tenloai%></option>	
+			   <% } %>				
+			?>
+              </select>
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Mô tả: </p></td>
+            <td><label>
+              <textarea name="mo_ta" cols="50" rows="6" id="mo_ta"><%= sanphamUpdate.mota %></textarea>
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Đơn giá </p></td>
+            <td><label>
+              <input name="gia_ban" type="text" id="gia_ban" value="<%= sanphamUpdate.giaban %>">
+            </label></td>
+          </tr>
+          <tr>
+            <td><p class="style10">&nbsp;Hình sản phẩm </p></td>
+            <td><label>
+              <input name="file" type="file" accept="image/*" size="45" value="<%= sanphamUpdate.hinh %>">
+            </label>
+			
+			<img width="150px" src="/images/<%= sanphamUpdate.maloai %>/<%= sanphamUpdate.hinh %>"
+                                   id="thumb_preview" alt="Hình đại diện"/>
+			
+			
+			</td>
+          </tr>
+         
+          <tr>
+            <td height="35" colspan="2"><p align="center">
+              <label>
+              <input type="submit" name="Submit" value="Cập nhật sản phẩm" style="background-color:#ff9933; padding: 10px">
+              </label>
+            </p></td>
+          </tr>
+        </table>
+      </form>
+</td>
+</tr>
+</table>
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer1'); %>
+</footer>
+
+</body>
+
+</html>
+

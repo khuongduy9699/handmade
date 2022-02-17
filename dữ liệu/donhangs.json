@@ -1,0 +1,187 @@
+[{
+  "_id": {
+    "$oid": "60eaea888a2aa9526ccd914d"
+  },
+  "sodh": 1,
+  "hoten": "khuong",
+  "diachi": "123abc",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f0271147be8a4b187e52e3"
+  },
+  "sodh": 2,
+  "hoten": "Nguyễn Trần Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0125457",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f0271147be8a4b187e52e4"
+      },
+      "masp": "mk01",
+      "tensp": "Móc khóa cú mèo",
+      "dongia": 40000,
+      "soluong": 1,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f13067001fd61afc88ce99"
+  },
+  "sodh": 3,
+  "hoten": "Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f13067001fd61afc88ce9a"
+      },
+      "masp": "mk05",
+      "tensp": "Móc khóa gà vàng",
+      "dongia": 40000,
+      "soluong": 4,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f13d95f64eb42d34ce9f04"
+  },
+  "sodh": 4,
+  "hoten": "",
+  "diachi": "",
+  "dienthoai": "",
+  "email": "",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f13d95f64eb42d34ce9f05"
+      },
+      "masp": "mk03",
+      "tensp": "Móc khóa Dreamcatcher",
+      "dongia": 40000,
+      "soluong": 1,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f13deddef6405054715da3"
+  },
+  "sodh": 5,
+  "hoten": "Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f13deddef6405054715da4"
+      },
+      "masp": "mk02",
+      "tensp": "Móc khóa cừu con",
+      "dongia": 40000,
+      "soluong": 1,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f13ec1a3292255203e6f65"
+  },
+  "sodh": 6,
+  "hoten": "",
+  "diachi": "",
+  "dienthoai": "",
+  "email": "",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f13ec1a3292255203e6f66"
+      },
+      "masp": "mk01",
+      "tensp": "Móc khóa cú mèo",
+      "dongia": 40000,
+      "soluong": 1,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f13ef6a3292255203e6f74"
+  },
+  "sodh": 7,
+  "hoten": "",
+  "diachi": "",
+  "dienthoai": "",
+  "email": "",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f13ef6a3292255203e6f75"
+      },
+      "masp": "mk01",
+      "tensp": "Móc khóa cú mèo",
+      "dongia": 40000,
+      "soluong": 1,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f14d6caed26b4100cc4fc5"
+  },
+  "sodh": 8,
+  "hoten": "Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f14d6caed26b4100cc4fc6"
+      },
+      "masp": "mk03",
+      "tensp": "Móc khóa Dreamcatcher",
+      "dongia": 40000,
+      "soluong": 2,
+      "thanhtien": 40000
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60f2df4a466bbb175ca9cc6e"
+  },
+  "sodh": 9,
+  "hoten": "Nguyễn Trần Duy Khương",
+  "diachi": "31/18/31, Tân Biên, Biên Hòa, Đồng Nai",
+  "dienthoai": "0768269551",
+  "email": "17520655@gm.uit.edu.vn",
+  "dslsp": [
+    {
+      "_id": {
+        "$oid": "60f2df4a466bbb175ca9cc6f"
+      },
+      "masp": "gb03",
+      "tensp": "Gấu bông chó Shiba",
+      "dongia": 80000,
+      "soluong": 3,
+      "thanhtien": 80000
+    }
+  ],
+  "__v": 0
+}]

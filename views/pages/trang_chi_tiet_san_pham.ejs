@@ -1,0 +1,256 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shop Handmade</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="../style1.css">
+<link href="../bootstrap.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script> 
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60db3a9f7f4b000ac03a29e4/1f9dn60g3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+<style>
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="/<%=ctsp.maloai%>"> > Trang Sản Phẩm</a><a href="#"> > Trang Chi Tiết Sản Phẩm</a></a>
+<table >
+<tr>
+<td width="10%" valign="top" style="padding-top:50px"><img src="/images/left1.jpg"></td>
+<td	width="80%" ><div style="padding: 10px">
+
+<section id="aa-product-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="aa-product-details-area">
+                    <div class="aa-product-details-content">
+                        <div class="row">
+                            <!-- Modal view slider -->
+
+                            <div class="col-md-7 col-sm-7 col-xs-12">
+
+                                <div class="row justify-content-center">
+                                    <div class="d-flex">
+                                        <div class="card" style="margin-top:0 ">
+                                            <div class="d-flex flex-column thumbnails">
+                                                
+                                                                    <div  class="tb tb-active"><img
+                                                                            class="thumbnail-img fit-image"
+                                                                            src="/images/<%=ctsp.maloai%>/<%=ctsp.hinh%>">
+                                                                    </div>
+                                                               
+                                                      
+                                                   
+                                            </div>
+                                            
+                                                              
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 push-bit">
+                                <div class="clearfix">
+                                    <div class="pull-right">
+                                        
+                                                            <span class="price" style="font-size:30px"><%=ctsp.giaban%>đ
+                                                                </span>
+
+                                                       
+                                            
+                                    </div>
+                                    <span>
+                                          <span class="h3">
+                                            <strong class="text-success"><%=ctsp.tensp%></strong>
+                                        </span><br/>
+                                           <small>
+                                                Còn hàng
+                                            </small>
+                                    </span>
+                                </div>
+                                <hr/>
+                                <%=ctsp.mota%>
+                                <hr/>
+                                <form action="/muasanpham/<%=ctsp.masp%>" method="get"
+                                      class="push-bit row">
+                                    
+                                    <input type="hidden" placeholder="Số lượng" value="1"
+                                           class="form-control quantity" style="width: 5em" min="1" name="product_id">
+
+                                    <div class="form-group col-md-4 col-sm-4 col-xs-12">
+                                        <label>Kích thước</label>
+                                        <select id="ecom-addcart-size" name="size" class="form-control"
+                                                size="1">
+                                            <option value="xs" selected>XS</option>
+                                            <option value="s">S</option>
+                                            <option value="m">M</option>
+                                            <option value="l">L</option>
+                                            <option value="xl">XL</option>
+                                            <option value="xxl">XXL</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-3 col-sm-3 col-xs-12">
+                                        <label></label>
+                                        <button type="submit" class="btn btn-info"   >Thêm giỏ hàng
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aa-product-details-bottom">
+                        <ul class="nav nav-tabs aa-products-tab" id="myTab2">
+                            <li class="active"><a href="#description" data-toggle="tab" class="">Mô tả</a></li>
+                            <li><a href="#review" data-toggle="tab">Đánh giá</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="description">
+                                <%=ctsp.mota%>
+                            </div>
+                            <div class="tab-pane fade " id="review">
+                                <div class="aa-product-review-area">
+                                    <ul class="aa-review-nav">
+                                        
+                                            <li>
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading"><strong>Khen ngợi</strong> -
+                                                            <span><fmt:formatDate value="16-07-2021"
+                                                                                  pattern="yyyy-MM-dd HH:mm"/>
+                                                          </span>
+                                                        </h4>
+                                                        <div class="aa-product-rating">
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </div>
+                                                        <p>Rất đẹp</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                      
+                                    </ul>
+                                    <h4>Thêm đánh giá</h4>
+
+                                    <!-- review form -->
+                                    <form action=""
+                                          method="post" class="aa-review-form">
+                                        <div class="form-group">
+                                            <label for="name">Tên</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Tên của bạn"
+                                                   value=""
+                                                   name="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" class="form-control" id="email"
+                                                   value=""
+                                                   placeholder="example@gmail.com" name="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Đánh giá của bạn</label>
+                                            <textarea class="form-control" rows="2" id="message"
+                                                      name="message"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-default aa-review-submit">Gửi</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Related product -->
+                    <div class="aa-product-related-item">
+                        <h3>SẢN PHẨM LIÊN QUAN</h3>
+                        <div class="row product-list">
+                            <% for(i=0;i<4;i++){%>
+                                
+                                    <div class="col-md-3">
+                                        <section class="panel offer offer-radius offer-danger ">
+                                            <div class="pro-img-box">
+                                               
+                                                <a class=""
+                                                   href="/chitiet/<%=dssp[i].masp%>"><img
+                                                        src="/images/<%=dssp[i].maloai%>/<%=dssp[i].hinh%>"
+                                                        alt="${product.title}"></a>
+
+                                               
+                                            </div>
+
+                                            <div class="panel-body text-center">
+                                                <h4>
+                                                    <a href="/chitiet/<%=dssp[i].masp%>"
+                                                       class="pro-title"> <%=dssp[i].tensp%></a>
+                                                </h4>
+                                                
+                                                        <p class="price"><%=dssp[i].giaban%>đ</p>
+                                                
+                                            </div>
+                                        </section>
+                                    </div>
+                                
+
+                            <%}%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</td>
+		<td width="10%" valign="top" style="padding-top:50px"><img src="/images/right.jpg"></td>
+</tr>
+</table>
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer1'); %>
+</footer>
+
+</body>
+
+</html>
+

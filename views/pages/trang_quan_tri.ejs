@@ -1,0 +1,139 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<%- include('../layout/head'); %>
+</head>
+
+<body>
+
+
+<header>
+<%- include('../layout/header'); %>
+</header>
+
+<main>                            
+<a href="/"><i class="fas fa-home"></i>Trang Chủ</a><a href="#"> > Trang Quản Trị</a>
+<div align="center">
+  <table  cellspacing="10">
+  <tr>
+  <td align='center' colspan="5"><br> <button style="background-color:#ff9933; padding: 10px "><a href='/themloai' style="display: block; color: #ffffff"><i class="fas fa-plus"></i> THÊM MỚI LOẠI SẢN PHẨM</a></button>
+  </td>
+  </tr>
+  <tr align="center">
+            
+              <% for(var i=0; i<dslsp.length;i++){ %>
+			  <td>
+             <a href='/capnhatloai/<%=dslsp[i]._id%>'><img src="images/category/<%=dslsp[i].maloai%>.jpg"></a><br><a href='/capnhatloai/<%=dslsp[i]._id%>'>Cập nhật</a>&emsp;<a href='/xoaloai/<%=dslsp[i]._id%>'>Xóa</a>
+			 </td>
+			 <% } %>
+            
+
+
+     </tr>
+
+	 </table>
+<table align="center">
+  <tr align="center">
+  <td>
+  <br /><hr style='border-color:red'>
+  <button style="background-color:#ff9933; padding: 10px "><a href='/themsanpham' style="display: block; color: #ffffff"><i class="fas fa-plus"></i> THÊM MỚI SẢN PHẨM</a></button>
+  </td>
+  </tr>
+    
+     <tr align="center" >
+      <td style="padding-left: 50">
+       <table  cellpadding="30" align="center" width="100%">
+          <% for(var i=0;i<dssp.length;i++){
+       if(i%4==0){ %>
+    <tr>
+    <% } %>
+    <td style="text-align: center; padding:50" colspan="1" width="25%" ><a href='/capnhatsanpham/<%=dssp[i]._id%>'><img src="/images/<%=dssp[i].maloai%>/<%=dssp[i].hinh%>" height="200px" width="200px"></a><br>
+    <%= dssp[i].tensp %><br>Giá bán:<%= dssp[i].giaban %><br>
+    <a href='/capnhatsanpham/<%= dssp[i]._id%>'>Cập nhật</a>&emsp;&emsp;<a href='/xoasanpham/<%= dssp[i]._id%>'>Xóa</a><br />
+    </td>
+        <% if((i+1)%4==0){ %>
+         </tr>
+         <% } %> 
+      <% } %>
+        </table>
+      </td>
+    </tr>
+  </table>
+  
+  <table align="center">
+  <tr align="center">
+  <td>
+  <br /><hr style='border-color:red'>
+  <button style="background-color:#ff9933; padding: 10px "><a href='/thembaiviet' style="display: block; color: #ffffff"><i class="fas fa-plus"></i> THÊM MỚI BÀI VIẾT</a></button>
+  </td>
+  </tr>
+    
+     <tr align="center" >
+      <td style="padding-left: 50">
+       <table  cellpadding="30" align="center" width="100%">
+          <% for(var i=0;i<posts.length;i++){
+       if(i%4==0){ %>
+    <tr>
+    <% } %>
+    <td style="text-align: center; padding:50" colspan="1" width="25%" ><a href='/capnhatbaiviet/<%=posts[i]._id%>'><img src="/images/post/<%=posts[i].hinh%>" height="200px" width="200px"></a><br>
+    <%= posts[i].tenbv %><br>Ngày đăng:<%= posts[i].ngaydang %><br>
+    <a href='/capnhatbaiviet/<%= posts[i]._id%>'>Cập nhật</a>&emsp;&emsp;<a href='/xoabaiviet/<%= posts[i]._id%>'>Xóa</a><br />
+    </td>
+        <% if((i+1)%4==0){ %>
+         </tr>
+         <% } %> 
+      <% } %>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table  cellspacing="10">
+  <tr>
+  <td align='center' colspan="5"><br /><hr style='border-color:red'>
+   <button style="background-color:#ff9933; padding: 10px "><a href='#' style="display: block; color: #ffffff"> THÔNG TIN CÁC ĐƠN HÀNG</a></button>
+  </td>
+  </tr>
+  <tr align="center">
+  <td>
+            <table border="1" width="80%">
+			 <tr>
+			  <td>Mã đơn hàng</td>
+			  <td>Tên khách hàng</td>
+			  <td>Địa chỉ</td>
+			  <td>Số điện thoại</td>
+			  <td>Email</td>
+			  <td>Thông tin đơn hàng</td>
+			 </tr>
+              <% for(var i=0; i<dsdonhang.length;i++){ %>
+			  <tr>
+			  <td><%=dsdonhang[i].sodh%></td>
+			  <td><%=dsdonhang[i].hoten%></td>
+			  <td><%=dsdonhang[i].diachi%></td>
+			  <td><%=dsdonhang[i].dienthoai%></td>
+			  <td><%=dsdonhang[i].email%></td>
+			  <td><%=dsdonhang[i].dslsp%></td>
+			  </tr>
+			  <% } %>
+			  </table>
+            
+
+</td>
+     </tr>
+
+	 </table>
+  
+</div>
+
+
+<div class="position-fixed" style="right: 10px; bottom: 10px;"><a href="#top"><i class="fa fa-chevron-circle-up fa-4x"></i></a></div>
+
+</main>
+
+<footer>
+<%- include('../layout/footer'); %>
+</footer>
+
+</body>
+
+</html>
+
